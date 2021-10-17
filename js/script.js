@@ -36,7 +36,7 @@ $(document).ready(function(){
 })
 
   $(".artist-list li a").mouseout( function() {
-    $( '.artist-image-holder img' ).attr("src","/IMAGES/artist1-thumb.jpeg");
+    $( '.artist-image-holder img' ).attr("src","/images/artist1-thumb.jpeg");
   });
 
 });
