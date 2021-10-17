@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>EC1 Gallery</title>
+</head>
+<body>
+    <header class="navigation"> 
+      <div class="placement-inner">
+        <nav class="menu">
+            <div tabindex="0" class="icon-menu">
+                <div>
+                    <img class="menu-logo js-nav-icon" src="./IMAGES/iconfinder_menu_2639862.svg" alt="menu icon">
+                </div>
+            </div>
+            <div class="sliding-menu-content">
+              <div>
+                  <a href="#">About</a>
+                  <a href="#">Artists</a>
+                  <a href="#">Exhibitions</a>
+                  <a href="#">Contact us</a>
+              </div>
+          </div>
+        </nav>
+        <div class="search-container">
+          <form action="/search" method="get">
+            <input class="search expand-right" id="search-right" type="search" name="q" placeholder="Search">
+            <label tabindex="0" class="button search-button" for="search-right"><span class="m-glass">&#9906;</span></label>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main id="content-wrapper">
+
+      <!-- Tile of page -->
+      <section class="type-text heading-container">
+        <div class="placement-inner">
+          <div class="content-headline">
+            <h2>EC1 Gallery</h2>
+          </div>
+          <a href="#" class="link-to-page" >View all</a>
+        </div>
+      </section>
+
+      <!-- Slider -->
+      <section class="type-slider slider-container">
+        <div class="placement-inner">
+          <ol class="slider">
+            <li class="slide">
+              <figure class="image-container">
+                <img class="slide-image" src="./IMAGES/slide1.png" alt="Photo of Anselm Kiefer exhibiton">
+              </figure>
+              <div class="editor-output">
+                <h2>Anselm Kiefer: Walhalla</h2>
+                <p>Until 12 February 2017, Bermondsey</p>
+              </div>
+            </li>
+            <li class="slide">
+              <figure class="image-container">
+                <img class="slide-image" src="./IMAGES/slide1.png" alt="Photo of Anselm Kiefer exhibiton">
+              </figure>
+              <div class="editor-output">
+                <h2>Anselm Kiefer: Walhalla</h2>
+                <p>Until 12 February 2017, Bermondsey</p>
+              </div>
+            </li>
+            <li class="slide">
+              <figure class="image-container">
+                <img class="slide-image" src="./IMAGES/slide1.png" alt="Photo of Anselm Kiefer exhibiton">
+              </figure>
+              <div class="editor-output">
+                <h2>Anselm Kiefer: Walhalla</h2>
+                <p>Until 12 February 2017, Bermondsey</p>
+              </div>
+            </li>
+            <li class="slide">
+              <figure class="image-container">
+                <img class="slide-image" src="./IMAGES/slide1.png" alt="Photo of Anselm Kiefer exhibiton">
+              </figure>
+              <div class="editor-output">
+                <h2>Anselm Kiefer: Walhalla</h2>
+                <p>Until 12 February 2017, Bermondsey</p>
+              </div>
+            </li>
+          </ol>
+          </div>
+      </section>
+
+      <!-- Events Section -->
+      <section class="type-events-minilist">
+        <div class="placement-inner">
+        <div class="content-headline">
+          <h2>New & Events</h2>
+        </div>
+        <a href="#" class="link-to-page" >View all</a>
+        <ol class="events-list">
+          <!-- Event 1  -->
+          <li class="event">
+            <figure class="image-container">
+              <img class="event-image" src="./IMAGES/image1.png" alt="">
+            </figure>
+            <div class="event-headline">
+              <a href="#"><h2>Exhibition: He Xiangyu monograph released by Distanz</h2></a>
+            </div>
+            <div class="event-data">
+              <p>From March 2016</p>
+            </div>
+            <div class="editor-output">
+              <p>
+                He Xiangyu and Liu Wei are among 74 international artists from 33 countries chosen to feature in the Yinchuan Biennale 2016</p>
+            </div>
+          </li>
+          <!-- Event 2  -->
+          <li class="event">
+            <figure class="image-container">
+              <img class="event-image" src="./IMAGES/image2.png" alt="">
+            </figure>
+            <div class="event-headline">
+              <a href="#"><h2>Exhibition: Runa Islam at SFMOMA, San Francisco</h2></a>
+            </div>
+            <div class="event-data">
+              <p>From March 2016</p>
+            </div>
+            <div class="editor-output">
+              <p>‘Verso’, SFMOMA’s solo presentation of Bangladeshi-born British artist Runa Islam, features the US premiere of Cabinet of Prototypes (2009-10)</p>
+            </div>
+          </li>
+          <!-- Event 3  -->
+          <li class="event">
+            <figure class="image-container">
+              <img class="event-image" src="./IMAGES/image3.png" alt="">
+            </figure>
+            <div class="event-headline">
+              <a href="#"><h2>Preview: White Cube Mason’s Yard</h2></a>
+            </div>
+            <div class="event-data">
+              <p>19 January 2017, 6 to 8pm</p>
+            </div>
+            <div class="editor-output">
+              <p>
+                Join us at Mason's Yard, London for the preview of the new Park Seo-Bo exhibition curated by Katharine Kostyál. Curated by Katharine Kostyál</p>
+            </div>
+          </li>
+        </ol>
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section class="type-events-single">
+        <div class="placement-inner">
+        <div class="content-headline">
+          <h2>New & Events</h2>
+        </div>
+        <a href="#" class="link-to-page" >View all</a>
+        <div class="event">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FshvS5lwe4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="event-details">
+            <div class="event-data">
+              <div class="event-headline">
+                <h2>Anselm Kiefer</h2>
+              </div>
+              <div class="short-description">
+              <p>In conversation with Tim Marlow</p>
+              </div>
+              <div class="location">
+                <p>In the Auditorium</p>
+              </div>
+            </div>
+            <div class="editor-output">
+              <p>
+                In this film Anselm Kiefer discusses his work and his exhibition ‘Walhalla’ at White Cube Bermondsey with Tim Marlow.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- Artists -->
+      <section class="type-content-list">
+        <div class="placement-inner">
+          <div class="content-headline">
+            <h2>Artist</h2>
+          </div>
+          <a href="#" class="link-to-page" >View all</a>
+          <div class="artists-container">
+            <ol class="artist-list">
+              <li><a href="#" data-src="./IMAGES/artist1-thumb.jpeg">Franz Ackermann</a></li>
+              <li><a href="#" data-src="./IMAGES/artist2-thumb.jpg">David Hammons</a></li>
+              <li><a href="#" data-src="/IMAGES/artist3-thumb.jpg">Beatriz Milhazes</a></li>
+              <li><a href="#" data-src="./IMAGES/artist4-thumb.png">Etel Adnan</a></li>
+              <li><a href="#" data-src="./IMAGES/artist5-thumb.jpeg">Mona Hatoum</a></li>
+              <li><a href="#" data-src="/IMAGES/artist6-thumb.jpeg">Harland Miller</a></li>
+              <li><a href="#" data-src="./IMAGES/artist1-thumb.jpeg">Franz Ackermann</a></li>
+              <li><a href="#" data-src="./IMAGES/artist2-thumb.jpg">David Hammons</a></li>
+              <li><a href="#" data-src="/IMAGES/artist3-thumb.jpg">Beatriz Milhazes</a></li>
+              <li><a href="#" data-src="./IMAGES/artist4-thumb.png">Etel Adnan</a></li>
+              <li><a href="#" data-src="./IMAGES/artist5-thumb.jpeg">Mona Hatoum</a></li>
+              <li><a href="#" data-src="/IMAGES/artist6-thumb.jpeg">Harland Miller</a></li>
+              <li><a href="#" data-src="./IMAGES/artist1-thumb.jpeg">Franz Ackermann</a></li>
+              <li><a href="#" data-src="./IMAGES/artist2-thumb.jpg">David Hammons</a></li>
+              <li><a href="#" data-src="/IMAGES/artist3-thumb.jpg">Beatriz Milhazes</a></li>
+              <li><a href="#" data-src="./IMAGES/artist4-thumb.png">Etel Adnan</a></li>
+              <li><a href="#" data-src="./IMAGES/artist5-thumb.jpeg">Mona Hatoum</a></li>
+              <li><a href="#" data-src="/IMAGES/artist6-thumb.jpeg">Harland Miller</a></li>
+              <li><a href="#" data-src="./IMAGES/artist1-thumb.jpeg">Franz Ackermann</a></li>
+              <li><a href="#" data-src="./IMAGES/artist2-thumb.jpg">David Hammons</a></li>
+              <li><a href="#" data-src="/IMAGES/artist3-thumb.jpg">Beatriz Milhazes</a></li>
+              <li><a href="#" data-src="./IMAGES/artist4-thumb.png">Etel Adnan</a></li>
+              <li><a href="#" data-src="./IMAGES/artist5-thumb.jpeg">Mona Hatoum</a></li>
+              <li><a href="#" data-src="/IMAGES/artist6-thumb.jpeg">Harland Miller</a></li>
+              <li><a href="#" data-src="./IMAGES/artist1-thumb.jpeg">Franz Ackermann</a></li>
+              <li><a href="#" data-src="./IMAGES/artist2-thumb.jpg">David Hammons</a></li>
+              
+            
+            </ol>
+            <div class="artist-image-holder">
+              <img src="./IMAGES/artist1-thumb.jpeg">
+            </div>
+          </div>
+        </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      
+      <div class="footer-container">
+        <!-- footer menu 1 -->
+        <section class="type-text footer-menu">
+          <div class="placement-inner">
+          <div class="content-headline">
+            <h2>Footer Menu</h2>
+          </div>
+          <a href="#" class="link-to-page" >View all</a>
+          <div class="editor-output">
+            <ol>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Press</a></li>
+            </ol>
+            <ol>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ol>
+          </div>
+          </div>
+        </section>
+        <!-- Footer text  -->
+        <section class="type-text footer-text">
+          <div class="placement-inner">
+          <div class="content-headline">
+            <h2>Contact us</h2>
+          </div>
+          <a href="#" class="link-to-page" >View all</a>
+          <div class="editor-output">
+            <p>EC1 GALLERY</p>
+            <p>344 Clerkenwell Road London</p>
+            <p>EC1 5RS</p>
+            <p>Tel +44 (0) 207 123 4567</p>
+          </div>
+          </div>
+        </section>
+        <!-- Footer credits  -->
+        <section class="type-text footer-credits">
+          <div class="placement-inner">
+          <div class="content-headline">
+            <h2>Credits</h2>
+          </div>
+          <a href="#" class="link-to-page" >View all</a>
+          <div class="editor-output">
+            <p>© 2017 EC1 GALLERY</p>
+            <ol>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms of sale</a></li>
+              <li><a href="#">Privacy Notice</a></li>
+            </ol>
+          </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
