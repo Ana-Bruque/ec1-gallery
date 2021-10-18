@@ -431,6 +431,15 @@ header .placement-inner {
   padding-left: 1em;
   max-height: 300px;
   min-height: 300px;
+  overflow: hidden;
+}
+
+.artists-container .artist-image-holder img {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center center;
 }
 
 @media screen and (max-width: 840px) {
